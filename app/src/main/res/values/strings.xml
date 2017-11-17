@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">江苏国税</string>
+    <string name="login_prompt">注：如您已开通电子税务局，请使用电子税务局用户密码登陆无需注册。</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="regist_user">注册新用户</string>
+    <string name="uname_hint">纳税人识别号/手机号</string>
+    <string name="pwd_hint">密码</string>
+    <string name="regist_title">注册</string>
+    <string name="regist_phone_num">手机号</string>
+    <string name="regist_pwd">密\u0020 \u0020码</string>
+    <string name="regist_phone_hint">请输入手机号</string>
+    <string name="regist_pwd_hint">请输入密码</string>
+    <string name="regist_verification_code">请输入验证码</string>
+    <string name="regist_rule_txt">我已详细阅读并接受《江苏省国家税务局“智慧国税--移动办税平台”使用协议》。</string>
+    <string name="home">首页</string>
+    <string name="tax">办税</string>
+    <string name="query">查询</string>
+    <string name="personal">我的</string>
+
+    <string name="my_receipt">我的发票</string>
+    <string name="my_package">我的套餐</string>
+    <string name="my_declare">我的申报</string>
+    <string name="my_query">我的查询</string>
+    <string name="home_notice_msg">发票代开纳税人端操作流程</string>
+    <string name="more">更多</string>
+    <string name="product_recommendation">产品推荐</string>
+    <string name="my_invoice_business">我的发票业务</string>
+    <string name="my_package_business">我的套餐业务</string>
+    <string name="personal_customization">个人定制</string>
+    <string name="public_info_query">公共信息查询</string>
+    <string name="query_Individualization_info">个性化信息查询</string>
+
+    <string name="tax_fplyyjpssq_1">发票领用邮寄配送申请</string>
+    <string name="tax_fplyyjpssq_2">在线申请快递到家</string>
+
+    <string name="tax_yjdkzzszpsq_1">邮寄代开增值税专票申请</string>
+    <string name="tax_yjdkzzszpsq_2">邮寄代开发票</string>
+
+    <string name="tax_xcdkzzszpsq_1">现场代开增值税专票申请</string>
+    <string name="tax_xcdkzzszpsq_2">现场代开发票</string>
+
+    <string name="tax_yjlsb_1">一键零申报</string>
+    <string name="tax_yjlsb_2">小规模纳税人增值税</string>
+
+    <string name="tax_sdshdzssb_1">所得税核定征收申报</string>
+    <string name="tax_sdshdzssb_2">掌上便携申报</string>
+
+    <string name="tax_wfwzjycf_1">违法违章简易处罚</string>
+    <string name="tax_wfwzjycf_2">简化办结程序</string>
+
+    <string name="tax_fppzxebg_1">发票票种限额变更</string>
+    <string name="tax_fppzxebg_2">快速核定</string>
+
+    <string name="tax_yyqh_1">预约/取号</string>
+    <string name="tax_yyqh_2">提前预约、实时取号</string>
+
+
+    <string name="personal_xxzx_txt">消息中心</string>
+    <string name="personal_qyxx_txt">企业信息</string>
+    <string name="personal_yyqhxx_txt">预约/取号信息</string>
+    <string name="person_gywm_txt">关于我们</string>
+    <string name="personal_yjjy_txt">意见建议</string>
+    <string name="personal_gdcp_txt">更多产品</string>
+    <string name="personal_ssdl_txt">手势登录</string>
+    <string name="personal_rlsbdl_txt">人脸识别登录</string>
+
+
+    <string name="invoice_bldyw">办理的业务</string>
+
+    <string name="invoice_bldyw_fplx">发票类型：</string>
+    <string name="invoice_bldyw_fply">发票领用</string>
+
+
+    <string name="invoice_yjdh_sqdh">申请单号</string>
+    <string name="invoice_yjdh_hint">请输入申请单号</string>
+
+    <string name="invoice_yjdh_tjsj_start">提交时间起</string>
+    <string name="iinvoice_yjdh_tjsj_start_hint">请输入提交时间起</string>
+
+    <string name="invoice_yjdh_tjsj_end">提交时间止</string>
+    <string name="iinvoice_yjdh_tjsj_end_hint">请输入提交时间止</string>
+
+    <string name="invoice_yjdh_form_status">表单状态</string>
+    <string name="iinvoice_yjdh_sel">请选择</string>
+
+
+    <string-array name="spingarr">
+        <item>请选择</item>
+        <item>作废</item>
+        <item>通过</item>
+        <item>草稿</item>
+        <item>受理中</item>
+        <item>不通过</item>
+        <item>提交成功</item>
+        <item>所有状态</item>
+    </string-array>
+
+
+    <string name="invoice_fplysq">发票领用申请</string>
+    <string name="invoice_fplysq_qyjcxx">企业基础信息</string>
+
+
+    <string name="tax_calendar">办税日历</string>
+</resources>

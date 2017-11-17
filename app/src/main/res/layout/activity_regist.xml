@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="0dp"
+    tools:context="com.visioncatcher.tax.nationaltax.ui.activity.RegistActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/regist_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/regist_close_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/image_btn_press2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/regist_title"
+            android:textSize="24sp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/regist_phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regist_phone_num"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/phone_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/regist_phone_hint"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:theme="@style/MyEditText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/regist_code_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:ems="10"
+            android:hint="@string/regist_verification_code"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:theme="@style/MyEditText" />
+
+        <ImageView
+            android:id="@+id/code_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/send_code" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/regist_pwd_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regist_pwd"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/regist_pwd_hint"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:theme="@style/MyEditText" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/regist_rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/check_state"
+            android:text="@string/regist_rule_txt"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/regist_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/selector_regist_btn" />
+</LinearLayout>
